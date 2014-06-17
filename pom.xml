@@ -25,7 +25,7 @@
     </licenses>
     <scm>
       <url>http://github.com/grails/grails-maven-plugin</url>
-      <developerConnection>scm:git:git://github.com/wibidata/grails-maven-plugin.git</developerConnection>
+      <developerConnection>scm:git:git@github.com:wibidata/grails-maven-plugin.git</developerConnection>
       <connection>scm:git:git@github.com:wibidata/grails-maven-plugin.git</connection>
     </scm>
     <developers>
