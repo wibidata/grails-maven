@@ -638,12 +638,12 @@
     </profiles>
   <distributionManagement>
     <repository>
-      <id>kiji-internal-maven</id>
+      <id>wibidata-maven</id>
       <name>Internal Maven Repo</name>
       <url>http://maven.wibidata.net/artifactory/wibidata-releases</url>
     </repository>
     <snapshotRepository>
-      <id>kiji-internal-maven</id>
+      <id>wibidata-maven</id>
       <name>Internal Maven Repo</name>
       <url>https://maven.wibidata.net/artifactory/wibidata-snapshots</url>
     </snapshotRepository>
