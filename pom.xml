@@ -11,7 +11,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.grails</groupId>
     <artifactId>grails-maven-plugin</artifactId>
-    <version>2.3.9-SNAPSHOT</version>
+    <version>2.3.9-wibi-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
 
     <name>Maven plugin for GRAILS applications</name>
@@ -636,5 +636,16 @@
             </dependencies>
         </profile>
     </profiles>
-
+  <distributionManagement>
+    <repository>
+      <id>kiji-internal-maven</id>
+      <name>Internal Maven Repo</name>
+      <url>http://maven.wibidata.net/artifactory/wibidata-releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>kiji-internal-maven</id>
+      <name>Internal Maven Repo</name>
+      <url>https://maven.wibidata.net/artifactory/wibidata-snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
